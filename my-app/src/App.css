@@ -8,5 +8,9 @@ grid-template-areas:
   grid-template-rows: 80px 3fr;
   grid-template-columns: 1.5fr 10fr;
   grid-gap: 3px;
-  position: absolute;
+  /*position: absolute;*/
+}
+.app-wrapper-content {
+  grid-area: c;
+  background-color: #ffffff;
 }
