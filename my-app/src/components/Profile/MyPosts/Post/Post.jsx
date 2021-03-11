@@ -1,10 +1,10 @@
 import React from 'react';
-import s from './Post.module.css';
+import style from './Post.module.css';
 
 const Post = (props) => {
     return (
-        <div className={s.posts}>
-            <div className={s.item}>
+        <div className={style.posts}>
+            <div className={style.item}>
                 <img src='https://image.flaticon.com/icons/png/512/147/147144.png'/>
                 {props.message}
                 <div>
