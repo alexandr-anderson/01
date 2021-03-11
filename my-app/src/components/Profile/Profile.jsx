@@ -3,7 +3,6 @@ import MyPosts from './MyPosts/MyPosts';
 import style from './Profile.module.css';
 import ProfileInfo from "./ProfileInfo/ProfileIfo";
 
-
 const Profile = () => {
     return (
         <div>
@@ -12,4 +11,5 @@ const Profile = () => {
         </div>
     )
 }
+
 export default Profile
