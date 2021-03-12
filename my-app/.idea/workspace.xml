@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14e4bbfd-14fd-46f8-a76d-2810e132a89c" name="Default Changelist" comment="lesson 26">
+    <list default="true" id="14e4bbfd-14fd-46f8-a76d-2810e132a89c" name="Default Changelist" comment="data in index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -80,7 +81,7 @@
       <workItem from="1615112748978" duration="611000" />
       <workItem from="1615229324046" duration="605000" />
       <workItem from="1615368639078" duration="20628000" />
-      <workItem from="1615493378863" duration="11794000" />
+      <workItem from="1615493378863" duration="15519000" />
     </task>
     <task id="LOCAL-00001" summary="Connected Githab and WebStorm">
       <created>1615400305063</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615501361746</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="data in index">
+      <created>1615506451758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615506451758</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +139,7 @@
     <MESSAGE value="Connected Githab and WebStorm" />
     <MESSAGE value="lesson 25" />
     <MESSAGE value="lesson 26" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 26" />
+    <MESSAGE value="data in index" />
+    <option name="LAST_COMMIT_MESSAGE" value="data in index" />
   </component>
 </project>
