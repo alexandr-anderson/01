@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="14e4bbfd-14fd-46f8-a76d-2810e132a89c" name="Default Changelist" comment="data in index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/sideBar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/sideBar/SideBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
@@ -92,7 +96,7 @@
       <workItem from="1615632405958" duration="6015000" />
       <workItem from="1615723682807" duration="18390000" />
       <workItem from="1615805620884" duration="17177000" />
-      <workItem from="1615894817456" duration="4069000" />
+      <workItem from="1615894817456" duration="8180000" />
     </task>
     <task id="LOCAL-00001" summary="Connected Githab and WebStorm">
       <created>1615400305063</created>
@@ -150,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615841516649</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="oop and bind">
+      <created>1615909327024</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615909327025</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +193,7 @@
     <MESSAGE value="onClick; state; friends" />
     <MESSAGE value="rerender pack" />
     <MESSAGE value="observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="observer" />
+    <MESSAGE value="oop and bind" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop and bind" />
   </component>
 </project>

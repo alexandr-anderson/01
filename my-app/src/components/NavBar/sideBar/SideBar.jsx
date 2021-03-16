@@ -1,5 +1,4 @@
 import React from "react";
-import state from "../../../redux/state";
 
 const SideBar = () => {
 
