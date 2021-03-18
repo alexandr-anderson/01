@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e4bbfd-14fd-46f8-a76d-2810e132a89c" name="Default Changelist" comment="data in index">
+      <change afterPath="$PROJECT_DIR$/src/redux/dialog-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/sideBar-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -30,9 +43,6 @@
         <option value="https://github.com/alexandr-anderson/01" />
       </set>
     </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1pNb6cje6o6JSkbbsPIw3MYPVdC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -67,13 +77,24 @@
       <recent name="D:\react-kkp\01\my-app\src\components\News" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="state.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/redux/state.js" working-dir="$PROJECT_DIR$/src/redux">
+  <component name="RunManager" selected="Node.js.store.js">
+    <configuration name="store.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/redux/store.js" working-dir="$PROJECT_DIR$/src/redux">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.state.js" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.store.js" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +121,7 @@
       <workItem from="1615805620884" duration="17177000" />
       <workItem from="1615894817456" duration="9048000" />
       <workItem from="1616050511002" duration="14224000" />
-      <workItem from="1616072906331" duration="5663000" />
+      <workItem from="1616072906331" duration="14545000" />
     </task>
     <task id="LOCAL-00001" summary="Connected Githab and WebStorm">
       <created>1615400305063</created>
@@ -186,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616067038912</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixed send message">
+      <created>1616079815211</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616079815211</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +250,8 @@
     <MESSAGE value="dispatch" />
     <MESSAGE value="add post action create&#10;update new post text action create" />
     <MESSAGE value="sent message action create&#10;update new message action create" />
-    <option name="LAST_COMMIT_MESSAGE" value="sent message action create&#10;update new message action create" />
+    <MESSAGE value="debag" />
+    <MESSAGE value="fixed send message" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed send message" />
   </component>
 </project>
