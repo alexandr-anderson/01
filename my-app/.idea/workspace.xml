@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +99,8 @@
       <workItem from="1615723682807" duration="18390000" />
       <workItem from="1615805620884" duration="17177000" />
       <workItem from="1615894817456" duration="9048000" />
-      <workItem from="1616050511002" duration="14131000" />
+      <workItem from="1616050511002" duration="14224000" />
+      <workItem from="1616072906331" duration="5663000" />
     </task>
     <task id="LOCAL-00001" summary="Connected Githab and WebStorm">
       <created>1615400305063</created>
@@ -177,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616054555673</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sent message action create&#10;update new message action create">
+      <created>1616067038912</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616067038912</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +221,7 @@
     <MESSAGE value="oop and bind" />
     <MESSAGE value="dispatch" />
     <MESSAGE value="add post action create&#10;update new post text action create" />
-    <option name="LAST_COMMIT_MESSAGE" value="add post action create&#10;update new post text action create" />
+    <MESSAGE value="sent message action create&#10;update new message action create" />
+    <option name="LAST_COMMIT_MESSAGE" value="sent message action create&#10;update new message action create" />
   </component>
 </project>
