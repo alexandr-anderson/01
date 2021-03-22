@@ -2,18 +2,18 @@ import React from 'react';
 import style from './MyPosts.module.css';
 import Post from './Post/Post';
 
-const MyPosts = (props) => {
+const MyPosts = (state) => {
 
-    let postsElement = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount}/>)
+    let postsElement = state.posts.map(p => <Post message={p.message} likesCount={p.likesCount}/>)
 
-    let newPostText = props.newPostText
+    let newPostText = state.newPostText
 
     let onAddPost = () => {
-        props.addPost()
+        state.addPost()
     }
     let onPostChange = (e) => {
         let text = e.target.value;
-        props.updateNewPostText(text);
+        state.updateNewPostText(text);
     }
     return (
         <div className={style.postsBlock}>

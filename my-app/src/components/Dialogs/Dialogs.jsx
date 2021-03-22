@@ -3,18 +3,18 @@ import style from './Dialogs.module.css';
 import Messages from "./Messages/Messages";
 import DialogItem from "./DialogItem/DialogItem";
 
-const Dialogs = (props) => {
+const Dialogs = (state) => {
 
-    let dialogsElements = props.dialogs.map(d => <DialogItem name={d.name} id={d.id}/>)
-    let messagesElements = props.messages.map(m => <Messages message={m.message}/>)
-    let newMessageBody = props.newMessageBody
+    let dialogsElements = state.dialogsPage.dialogs.map(d => <DialogItem name={d.name} id={d.id}/>)
+    let messagesElements = state.dialogsPage.messages.map(m => <Messages message={m.message}/>)
+    let newMessageBody = state.dialogsPage.newMessageBody
 
     let onSendMessageClick = () => {
-        props.SendMessage()
+        state.SendMessage()
     }
     let onNewMessageChange = (e) => {
         let body = e.target.value
-        props.NewMessageChange(body)
+        state.NewMessageChange(body)
     }
     return (
         <div className={style.dialogs}>
