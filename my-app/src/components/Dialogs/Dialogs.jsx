@@ -5,8 +5,8 @@ import DialogItem from "./DialogItem/DialogItem";
 
 const Dialogs = (state) => {
 
-    let dialogsElements = state.dialogsPage.dialogs.map(d => <DialogItem name={d.name} id={d.id}/>)
-    let messagesElements = state.dialogsPage.messages.map(m => <Messages message={m.message}/>)
+    let dialogsElements = state.dialogsPage.dialogs.map(d => <DialogItem name={d.name} key={d.id} id={d.id}/>)
+    let messagesElements = state.dialogsPage.messages.map(m => <Messages message={m.message} key={m.id}/>)
     let newMessageBody = state.dialogsPage.newMessageBody
 
     let onSendMessageClick = () => {

@@ -4,7 +4,7 @@ import Post from './Post/Post';
 
 const MyPosts = (state) => {
 
-    let postsElement = state.posts.map(p => <Post message={p.message} likesCount={p.likesCount}/>)
+    let postsElement = state.posts.map(p => <Post message={p.message} likesCount={p.likesCount} key={p.id}/>)
 
     let newPostText = state.newPostText
 
