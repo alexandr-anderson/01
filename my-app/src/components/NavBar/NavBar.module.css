@@ -15,10 +15,10 @@
 .item a.active {
     color: #d20b4a;
 }
-.itemFriends {
+.itemSideBar {
     color: white;
 }
-.itemFriends img {
+.itemSideBar img {
     width: 20px;
     border-radius: 30px;
 }
